@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.371" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-21T22:39:37" tests="0" file="cypress/e2e/features/account.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Account" timestamp="2024-01-21T22:39:37" tests="4" time="0.325" failures="1">
+    <testcase name="Account &quot;before each&quot; hook for &quot;Add credit card into account&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;Add credit card into account&quot;">
+      <failure message="localStorage.searchItem is not a function
+
+Because this error occurred during a `before each` hook we are skipping all of the remaining tests." type="TypeError"><![CDATA[TypeError: localStorage.searchItem is not a function
+
+Because this error occurred during a `before each` hook we are skipping all of the remaining tests.
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/support/e2e.js:15:18)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

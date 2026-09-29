@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.557" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-01-24T03:49:16" tests="0" file="cypress/e2e/features/account.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Account" timestamp="2024-01-24T03:49:17" tests="4" time="28.508" failures="2">
+    <testcase name="Account Add credit card into account" time="0.000" classname="Add credit card into account">
+      <failure message="Timed out retrying after 4000ms: `cy.its()` errored because the property: `body` does not exist on your subject.
+
+`cy.its()` waited for the specified property `body` to exist, but it never did.
+
+If you do not expect the property `body` to exist, then add an assertion such as:
+
+`cy.wrap({ foo: &apos;bar&apos; }).its(&apos;quux&apos;).should(&apos;not.exist&apos;)`
+
+https://on.cypress.io/its" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4000ms: `cy.its()` errored because the property: `body` does not exist on your subject.
+
+`cy.its()` waited for the specified property `body` to exist, but it never did.
+
+If you do not expect the property `body` to exist, then add an assertion such as:
+
+`cy.wrap({ foo: 'bar' }).its('quux').should('not.exist')`
+
+https://on.cypress.io/its
+    at Array.<anonymous> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:118136:72)
+    at $Cy.getSubjectFromChain (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:138751:34)
+    at $Cy.subject (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:138705:17)
+    at Object.subjectFn (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143992:28)
+    at $Cy.verifyUpcomingAssertions (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143340:31)
+    at onRetry (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143987:15)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise.attempt.Promise.try (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:4315:29)
+    at whenStable (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143874:68)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143815:14)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1701:18)
+    at Promise._fulfill (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1645:18)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:5450:46)
+From Your Spec Code:
+    at AccountPage.fillCardInfo (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10153:69)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10198:21)
+    at Registry.runStepDefininition (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:8703:48)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Account Delete credit card for the account" time="0.000" classname="Delete credit card for the account">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.tm-trash`, but never found it. Queried from:
+
+              &gt; cy.contains(div, Credit Card)" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.tm-trash`, but never found it. Queried from:
+
+              > cy.contains(div, Credit Card)
+    at Object.deleteCreditCardBtn (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10135:72)
+    at AccountPage.deleteCreditCard (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10161:25)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10201:21)
+    at Registry.runStepDefininition (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:8703:48)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Account Change the birthday (example #1)" time="4.444" classname="Change the birthday (example #1)">
+    </testcase>
+    <testcase name="Account Change the birthday (example #2)" time="4.492" classname="Change the birthday (example #2)">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.042" tests="4" failures="0" skipped="4">
+  <testsuite name="Root Suite" timestamp="2023-09-27T05:06:29" tests="0" file="cypress/e2e/features/pdp.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Product detail page" timestamp="2023-09-27T05:06:29" tests="4" time="0.021" failures="0">
+  </testsuite>
+</testsuites>

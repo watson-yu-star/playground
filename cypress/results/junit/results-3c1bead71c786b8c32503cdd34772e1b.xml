@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.288" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-24T09:02:16" tests="0" file="cypress/e2e/features/search.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="searchbar" timestamp="2024-01-24T09:02:16" tests="3" time="8.242" failures="0">
+    <testcase name="searchbar without typing anything" time="2.156" classname="without typing anything">
+    </testcase>
+    <testcase name="searchbar type keyword with 2 letters for suggestions" time="2.424" classname="type keyword with 2 letters for suggestions">
+    </testcase>
+    <testcase name="searchbar search dyson" time="3.583" classname="search dyson">
+    </testcase>
+  </testsuite>
+</testsuites>

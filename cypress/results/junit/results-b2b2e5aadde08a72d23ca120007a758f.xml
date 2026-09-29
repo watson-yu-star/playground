@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.360" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-11-23T23:19:17" tests="0" file="cypress/e2e/features/checkout.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="checkout" timestamp="2023-11-23T23:19:17" tests="1" time="4.230" failures="1">
+    <testcase name="checkout Checkout products from carts" time="0.000" classname="Checkout products from carts">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `div.header-icon-nav__user`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.header-icon-nav__user`, but never found it.
+    at Object.loginDialog (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/checkout.feature:10092:33)
+    at LoginPage.submitLogin (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/checkout.feature:10105:25)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/checkout.feature:10511:19)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/checkout.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/checkout.feature:9568:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

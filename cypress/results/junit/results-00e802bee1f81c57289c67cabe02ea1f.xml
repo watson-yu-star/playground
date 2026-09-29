@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.315" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-11-23T23:20:31" tests="0" file="cypress/e2e/features/redirectapi.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Redirect API" timestamp="2023-11-23T23:20:31" tests="1" time="0.262" failures="1">
+    <testcase name="Redirect API User read the response" time="0.000" classname="User read the response">
+      <failure message="`cy.request()` failed on:
+
+https://localhost/api/search/redirect
+
+The response we received from your web server was:
+
+  &gt; 502: Bad Gateway
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://localhost/api/search/redirect
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.2.0 Chrome/114.0.5735.289 Electron/25.8.0 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 502 - Bad Gateway
+Headers: {
+  &quot;server&quot;: &quot;nginx/1.23.0&quot;,
+  &quot;date&quot;: &quot;Thu, 23 Nov 2023 23:20:31 GMT&quot;,
+  &quot;content-type&quot;: &quot;text/html&quot;,
+  &quot;content-length&quot;: &quot;559&quot;,
+  &quot;connection&quot;: &quot;keep-alive&quot;
+}
+Body: &lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;hr&gt;&lt;center&gt;nginx/1.23.0&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;
+&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;
+&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;
+&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;
+&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;
+&lt;!-- a padding to disable MSIE and Chrome friendly error page --&gt;
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+https://localhost/api/search/redirect
+
+The response we received from your web server was:
+
+  > 502: Bad Gateway
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://localhost/api/search/redirect
+Headers: {
+  "Connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.2.0 Chrome/114.0.5735.289 Electron/25.8.0 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate"
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 502 - Bad Gateway
+Headers: {
+  "server": "nginx/1.23.0",
+  "date": "Thu, 23 Nov 2023 23:20:31 GMT",
+  "content-type": "text/html",
+  "content-length": "559",
+  "connection": "keep-alive"
+}
+Body: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.23.0</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+https://on.cypress.io/request
+    at <unknown> (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:133013:72)
+    at tryCatcher (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:1701:18)
+    at _drainQueueStep (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/redirectapi.feature:10799:12)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/redirectapi.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/redirectapi.feature:9568:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

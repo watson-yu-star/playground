@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.423" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-02-01T23:19:51" tests="0" file="cypress/e2e/features/wishlist.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="user can add item to wishlist from ListPage/PDP/HomePage" timestamp="2024-02-01T23:19:52" tests="4" time="13.070" failures="0">
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from PDP" time="2.741" classname="user as guest can add item to wishlist from PDP">
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from PLP" time="2.850" classname="user as guest can add item to wishlist from PLP">
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from homepage" time="2.007" classname="user as guest can add item to wishlist from homepage">
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage login user should see his wishlist" time="5.490" classname="login user should see his wishlist">
+    </testcase>
+  </testsuite>
+</testsuites>

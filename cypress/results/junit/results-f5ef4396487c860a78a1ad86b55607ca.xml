@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.277" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-24T04:06:08" tests="0" file="cypress/e2e/features/wishlist.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="user can add item to wishlist from ListPage/PDP/HomePage" timestamp="2024-01-24T04:06:09" tests="4" time="16.220" failures="1">
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from PDP" time="2.353" classname="user as guest can add item to wishlist from PDP">
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from PLP" time="2.705" classname="user as guest can add item to wishlist from PLP">
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from homepage" time="1.478" classname="user as guest can add item to wishlist from homepage">
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage login user should see his wishlist" time="0.000" classname="login user should see his wishlist">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `div.alert-box-container`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.alert-box-container`, but never found it.
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:11310:43)
+    at Registry.runStepDefininition (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:8703:48)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:9568:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

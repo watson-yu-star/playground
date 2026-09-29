@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.096" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-15T04:25:36" tests="0" file="cypress/e2e/features/cart.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cart" timestamp="2022-11-15T04:25:36" tests="4" time="17.048" failures="1">
+    <testcase name="Cart Add product into carts" time="14.733" classname="Add product into carts">
+    </testcase>
+    <testcase name="Cart Order Summary" time="0.000" classname="Order Summary">
+      <failure message="
+Step implementation missing for &quot;A user check the summary of the products&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/cart.js
+  - cypress/e2e/step_definitions/login.js
+  - cypress/e2e/step_definitions/pdp.js
+  - cypress/e2e/step_definitions/search.js
+
+However, none of these files contained a step definition matching &quot;A user check the summary of the products&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;A user check the summary of the products&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "A user check the summary of the products".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/cart.js
+  - cypress/e2e/step_definitions/login.js
+  - cypress/e2e/step_definitions/pdp.js
+  - cypress/e2e/step_definitions/search.js
+
+However, none of these files contained a step definition matching "A user check the summary of the products".
+
+You can implement it using the suggestion(s) below.
+
+  Given("A user check the summary of the products", function () {
+    return "pending";
+  });
+  
+    at Context.eval (https://themarket.com/__cypress/tests?p=cypress/e2e/features/cart.feature:9576:27)]]></failure>
+    </testcase>
+    <testcase name="Cart Change the amount of products" time="0.242" classname="Change the amount of products">
+    </testcase>
+    <testcase name="Cart Remove the products from cart" time="1.771" classname="Remove the products from cart">
+    </testcase>
+  </testsuite>
+</testsuites>

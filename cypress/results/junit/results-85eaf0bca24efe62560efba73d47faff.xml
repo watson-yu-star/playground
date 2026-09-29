@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.674" tests="0" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-26T00:51:56" tests="0" file="cypress/e2e/features/checkout.feature" time="0.674" failures="1">
+    <testcase name="checkout &quot;before all&quot; hook for &quot;Checkout products from carts&quot;" time="0.000" classname="&quot;before all&quot; hook for &quot;Checkout products from carts&quot;">
+      <failure message="`cy.request()` failed on:
+
+https://test.themarket.co.nz/api/user/logout
+
+The response we received from your web server was:
+
+  &gt; 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: https://test.themarket.co.nz/api/user/logout
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.2.0 Chrome/114.0.5735.289 Electron/25.8.0 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,
+  &quot;content-length&quot;: 0
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  &quot;date&quot;: &quot;Fri, 26 Jan 2024 00:51:56 GMT&quot;,
+  &quot;content-type&quot;: &quot;application/json; charset=utf-8&quot;,
+  &quot;content-length&quot;: &quot;62&quot;,
+  &quot;connection&quot;: &quot;keep-alive&quot;,
+  &quot;server&quot;: &quot;nginx&quot;,
+  &quot;access-control-allow-origin&quot;: &quot;*&quot;,
+  &quot;access-control-allow-methods&quot;: &quot;GET, POST, OPTIONS, PUT, PATCH, DELETE&quot;,
+  &quot;access-control-allow-headers&quot;: &quot;Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Token, RefreshToken&quot;,
+  &quot;access-control-allow-credentials&quot;: &quot;true&quot;,
+  &quot;x-robots-tag&quot;: &quot;noindex&quot;
+}
+Body: {
+  &quot;AppCode&quot;: &quot;MSG_ERR_USER_UNAUTHORIZED&quot;,
+  &quot;ErrorTypeCode&quot;: &quot;EATM&quot;
+}
+
+
+https://on.cypress.io/request
+
+Because this error occurred during a `before all` hook we are skipping all of the remaining tests." type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+https://test.themarket.co.nz/api/user/logout
+
+The response we received from your web server was:
+
+  > 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: https://test.themarket.co.nz/api/user/logout
+Headers: {
+  "Connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.2.0 Chrome/114.0.5735.289 Electron/25.8.0 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate",
+  "content-length": 0
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  "date": "Fri, 26 Jan 2024 00:51:56 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "62",
+  "connection": "keep-alive",
+  "server": "nginx",
+  "access-control-allow-origin": "*",
+  "access-control-allow-methods": "GET, POST, OPTIONS, PUT, PATCH, DELETE",
+  "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Token, RefreshToken",
+  "access-control-allow-credentials": "true",
+  "x-robots-tag": "noindex"
+}
+Body: {
+  "AppCode": "MSG_ERR_USER_UNAUTHORIZED",
+  "ErrorTypeCode": "EATM"
+}
+
+
+https://on.cypress.io/request
+
+Because this error occurred during a `before all` hook we are skipping all of the remaining tests.
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:133013:72)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1701:18)
+    at _drainQueueStep (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/support/e2e.js:99:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

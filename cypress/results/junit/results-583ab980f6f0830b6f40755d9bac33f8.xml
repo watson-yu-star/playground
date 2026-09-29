@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.853" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2023-11-23T23:19:02" tests="0" file="cypress/e2e/features/cart.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cart" timestamp="2023-11-23T23:19:02" tests="4" time="12.710" failures="4">
+    <testcase name="Cart Add product into carts" time="0.000" classname="Add product into carts">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Failed to execute &apos;observe&apos; on &apos;IntersectionObserver&apos;: parameter 1 is not of type &apos;Element&apos;.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Failed to execute 'observe' on 'IntersectionObserver': parameter 1 is not of type 'Element'.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at <unknown> (https://apps.bazaarvoice.com/apps/swat_reviews/swat_reviews_app-6.22.2.js:2:421324)
+    at <unknown> (https://apps.bazaarvoice.com/apps/swat_reviews/swat_reviews_app-6.22.2.js:2:421336)
+    at Di (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:104245)
+    at n.unstable_runWithPriority (https://apps.bazaarvoice.com/apps/vendors/scheduler.js:2:3923)
+    at Hl (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:44929)
+    at Oi (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:103708)
+    at gi (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:95236)
+    at <unknown> (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:45152)
+    at n.unstable_runWithPriority (https://apps.bazaarvoice.com/apps/vendors/scheduler.js:2:3923)
+    at Hl (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:44929)]]></failure>
+    </testcase>
+    <testcase name="Cart Order Summary" time="0.000" classname="Order Summary">
+      <failure message="
+Step implementation missing for &quot;The user login his account&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/account.js
+  - cypress/e2e/step_definitions/autocomplete.js
+  - cypress/e2e/step_definitions/cart.js
+  - cypress/e2e/step_definitions/checkout.js
+  - cypress/e2e/step_definitions/complete.js
+  - cypress/e2e/step_definitions/login.js
+  - cypress/e2e/step_definitions/pdp.js
+  - cypress/e2e/step_definitions/redirectapi.js
+  - cypress/e2e/step_definitions/search.js
+  - cypress/e2e/step_definitions/wishlist.js
+
+However, none of these files contained a step definition matching &quot;The user login his account&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;The user login his account&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "The user login his account".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/account.js
+  - cypress/e2e/step_definitions/autocomplete.js
+  - cypress/e2e/step_definitions/cart.js
+  - cypress/e2e/step_definitions/checkout.js
+  - cypress/e2e/step_definitions/complete.js
+  - cypress/e2e/step_definitions/login.js
+  - cypress/e2e/step_definitions/pdp.js
+  - cypress/e2e/step_definitions/redirectapi.js
+  - cypress/e2e/step_definitions/search.js
+  - cypress/e2e/step_definitions/wishlist.js
+
+However, none of these files contained a step definition matching "The user login his account".
+
+You can implement it using the suggestion(s) below.
+
+  Given("The user login his account", function () {
+    return "pending";
+  });
+  
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:9576:27)]]></failure>
+    </testcase>
+    <testcase name="Cart Change the amount of products" time="0.000" classname="Change the amount of products">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `div.cart-quantity-list input`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.cart-quantity-list input`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:10444:12)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Cart Remove the products from cart" time="0.000" classname="Remove the products from cart">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `i.tm-trash`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `i.tm-trash`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:10456:12)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:9568:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

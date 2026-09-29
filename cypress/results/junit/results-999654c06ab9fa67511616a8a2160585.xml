@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.458" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-11-23T23:20:44" tests="0" file="cypress/e2e/features/wishlist.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="user can add item to wishlist from ListPage/PDP/HomePage" timestamp="2023-11-23T23:20:44" tests="2" time="6.400" failures="2">
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from PDP" time="0.000" classname="user as guest can add item to wishlist from PDP">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `button.wishlist-bnt`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `button.wishlist-bnt`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:11158:12)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="user can add item to wishlist from ListPage/PDP/HomePage user as guest can add item to wishlist from PLP" time="0.000" classname="user as guest can add item to wishlist from PLP">
+      <failure message="
+Step implementation missing for &quot;she browsers to &quot;searchio&quot; version PLP for &quot;macbook&quot; in order &quot;Best Match&quot;&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/account.js
+  - cypress/e2e/step_definitions/autocomplete.js
+  - cypress/e2e/step_definitions/cart.js
+  - cypress/e2e/step_definitions/checkout.js
+  - cypress/e2e/step_definitions/complete.js
+  - cypress/e2e/step_definitions/login.js
+  - cypress/e2e/step_definitions/pdp.js
+  - cypress/e2e/step_definitions/redirectapi.js
+  - cypress/e2e/step_definitions/search.js
+  - cypress/e2e/step_definitions/wishlist.js
+
+However, none of these files contained a step definition matching &quot;she browsers to &quot;searchio&quot; version PLP for &quot;macbook&quot; in order &quot;Best Match&quot;&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;she browsers to {string} version PLP for {string} in order {string}&quot;, function (string, string2, string3) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "she browsers to "searchio" version PLP for "macbook" in order "Best Match"".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/account.js
+  - cypress/e2e/step_definitions/autocomplete.js
+  - cypress/e2e/step_definitions/cart.js
+  - cypress/e2e/step_definitions/checkout.js
+  - cypress/e2e/step_definitions/complete.js
+  - cypress/e2e/step_definitions/login.js
+  - cypress/e2e/step_definitions/pdp.js
+  - cypress/e2e/step_definitions/redirectapi.js
+  - cypress/e2e/step_definitions/search.js
+  - cypress/e2e/step_definitions/wishlist.js
+
+However, none of these files contained a step definition matching "she browsers to "searchio" version PLP for "macbook" in order "Best Match"".
+
+You can implement it using the suggestion(s) below.
+
+  Given("she browsers to {string} version PLP for {string} in order {string}", function (string, string2, string3) {
+    return "pending";
+  });
+  
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/wishlist.feature:9576:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

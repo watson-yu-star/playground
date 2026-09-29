@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.595" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-24T04:05:40" tests="0" file="cypress/e2e/features/pdp.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Product detail page" timestamp="2024-01-24T04:05:40" tests="5" time="14.496" failures="0">
+    <testcase name="Product detail page Add product Quantity" time="2.453" classname="Add product Quantity">
+    </testcase>
+    <testcase name="Product detail page Reduce product Quantity" time="3.578" classname="Reduce product Quantity">
+    </testcase>
+    <testcase name="Product detail page Set the product Quantity" time="2.776" classname="Set the product Quantity">
+    </testcase>
+    <testcase name="Product detail page Change shipping location" time="3.354" classname="Change shipping location">
+    </testcase>
+    <testcase name="Product detail page Check the coupon list" time="2.001" classname="Check the coupon list">
+    </testcase>
+  </testsuite>
+</testsuites>

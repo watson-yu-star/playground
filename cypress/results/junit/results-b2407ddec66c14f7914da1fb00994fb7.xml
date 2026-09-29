@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.602" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-15T23:08:42" tests="0" file="cypress/e2e/features/cart.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cart" timestamp="2022-11-15T23:08:42" tests="4" time="18.557" failures="0">
+    <testcase name="Cart Add product into carts" time="16.331" classname="Add product into carts">
+    </testcase>
+    <testcase name="Cart Order Summary" time="0.324" classname="Order Summary">
+    </testcase>
+    <testcase name="Cart Change the amount of products" time="0.188" classname="Change the amount of products">
+    </testcase>
+    <testcase name="Cart Remove the products from cart" time="1.680" classname="Remove the products from cart">
+    </testcase>
+  </testsuite>
+</testsuites>

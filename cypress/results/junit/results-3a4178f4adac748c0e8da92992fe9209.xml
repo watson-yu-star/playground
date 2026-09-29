@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.518" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-01-22T01:11:46" tests="0" file="cypress/e2e/features/cart.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cart" timestamp="2024-01-22T01:11:46" tests="3" time="21.352" failures="2">
+    <testcase name="Cart Add product into carts without login" time="0.000" classname="Add product into carts without login">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;a&gt;&apos; to contain text &apos;Connor Dean Shoe Tan 6&apos;, but the text was &apos;Connor Dean Shoe Tan 12&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<a>' to contain text 'Connor Dean Shoe Tan 6', but the text was 'Connor Dean Shoe Tan 12'
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:10389:70)
+
+      + expected - actual
+
+      -'Connor Dean Shoe Tan 12'
+      +'Connor Dean Shoe Tan 6'
+      ]]></failure>
+    </testcase>
+    <testcase name="Cart Change the amount of products" time="3.921" classname="Change the amount of products">
+    </testcase>
+    <testcase name="Cart Remove the products from cart" time="0.000" classname="Remove the products from cart">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Connor Dean Shoe Tan 6&apos; within the selector: &apos;td.goods-page-description&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Connor Dean Shoe Tan 6' within the selector: 'td.goods-page-description' but never did.
+    at CartPage.removeProduct (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:10353:14)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/cart.feature:10473:20)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

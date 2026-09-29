@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.470" tests="0" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-02-01T23:35:25" tests="0" file="cypress/e2e/features/login.feature" time="4.468" failures="1">
+    <testcase name="Login &quot;before all&quot; hook for &quot;: Login correctly (example #1)&quot;" time="0.000" classname="&quot;before all&quot; hook for &quot;: Login correctly (example #1)&quot;">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `cardlist`, but never found it.
+
+Because this error occurred during a `before all` hook we are skipping all of the remaining tests." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `cardlist`, but never found it.
+
+Because this error occurred during a `before all` hook we are skipping all of the remaining tests.
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/support/e2e.js:184:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

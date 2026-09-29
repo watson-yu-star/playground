@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.180" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-24T05:42:38" tests="0" file="cypress/e2e/features/redirectapi.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Redirect API" timestamp="2024-01-24T05:42:38" tests="1" time="0.131" failures="0">
+    <testcase name="Redirect API User read the response" time="0.138" classname="User read the response">
+    </testcase>
+  </testsuite>
+</testsuites>

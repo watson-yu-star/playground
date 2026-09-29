@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.258" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-01-24T19:31:36" tests="0" file="cypress/e2e/features/wishlisttocart.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="user can add item to cart from wishlist page" timestamp="2024-01-24T19:31:36" tests="4" time="13.192" failures="2">
+    <testcase name="user can add item to cart from wishlist page empty wishlist showing correctly" time="1.453" classname="empty wishlist showing correctly">
+    </testcase>
+    <testcase name="user can add item to cart from wishlist page guest can add non-color/non-size product into cart in wishlist" time="0.000" classname="guest can add non-color/non-size product into cart in wishlist">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Failed to execute &apos;observe&apos; on &apos;IntersectionObserver&apos;: parameter 1 is not of type &apos;Element&apos;.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Failed to execute 'observe' on 'IntersectionObserver': parameter 1 is not of type 'Element'.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at <unknown> (https://apps.bazaarvoice.com/apps/swat_reviews/swat_reviews_app-6.22.2.js:2:421324)
+    at <unknown> (https://apps.bazaarvoice.com/apps/swat_reviews/swat_reviews_app-6.22.2.js:2:421336)
+    at Di (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:104245)
+    at n.unstable_runWithPriority (https://apps.bazaarvoice.com/apps/vendors/scheduler.js:2:3923)
+    at Hl (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:44929)
+    at Oi (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:103708)
+    at gi (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:95236)
+    at <unknown> (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:45152)
+    at n.unstable_runWithPriority (https://apps.bazaarvoice.com/apps/vendors/scheduler.js:2:3923)
+    at Hl (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:44929)]]></failure>
+    </testcase>
+    <testcase name="user can add item to cart from wishlist page guest can add color options with no-size product into cart in wishlist" time="3.584" classname="guest can add color options with no-size product into cart in wishlist">
+    </testcase>
+    <testcase name="user can add item to cart from wishlist page guest can add color/size options product into cart in wishlist" time="0.000" classname="guest can add color/size options product into cart in wishlist">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Failed to execute &apos;observe&apos; on &apos;IntersectionObserver&apos;: parameter 1 is not of type &apos;Element&apos;.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Failed to execute 'observe' on 'IntersectionObserver': parameter 1 is not of type 'Element'.
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at <unknown> (https://apps.bazaarvoice.com/apps/swat_reviews/swat_reviews_app-6.22.2.js:2:421324)
+    at <unknown> (https://apps.bazaarvoice.com/apps/swat_reviews/swat_reviews_app-6.22.2.js:2:421336)
+    at Di (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:104245)
+    at n.unstable_runWithPriority (https://apps.bazaarvoice.com/apps/vendors/scheduler.js:2:3923)
+    at Hl (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:44929)
+    at Oi (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:103708)
+    at gi (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:95236)
+    at <unknown> (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:45152)
+    at n.unstable_runWithPriority (https://apps.bazaarvoice.com/apps/vendors/scheduler.js:2:3923)
+    at Hl (https://apps.bazaarvoice.com/apps/vendors/react-dom@17.0.1.js:2:44929)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

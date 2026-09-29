@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.689" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2023-09-13T23:12:47" tests="0" file="cypress/e2e/features/login.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2023-09-13T23:12:47" tests="4" time="20.655" failures="4">
+    <testcase name="Login Login correctly" time="0.000" classname="Login correctly">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:9521:27)]]></failure>
+    </testcase>
+    <testcase name="Login Logout correctly" time="0.000" classname="Logout correctly">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:9521:27)]]></failure>
+    </testcase>
+    <testcase name="Login Login unsuccessfully (example #1)" time="0.000" classname="Login unsuccessfully (example #1)">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:9521:27)]]></failure>
+    </testcase>
+    <testcase name="Login Login unsuccessfully (example #2)" time="0.000" classname="Login unsuccessfully (example #2)">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:9521:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

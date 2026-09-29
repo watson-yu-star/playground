@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.932" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-01-24T09:00:07" tests="0" file="cypress/e2e/features/account.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Account" timestamp="2024-01-24T09:00:07" tests="4" time="29.876" failures="2">
+    <testcase name="Account Add credit card into account" time="0.000" classname="Add credit card into account">
+      <failure message="Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `capture`. No request ever occurred.
+
+https://on.cypress.io/wait" type="CypressError"><![CDATA[CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `capture`. No request ever occurred.
+
+https://on.cypress.io/wait
+    at cypressErr (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:74999:18)
+    at Object.errByPath (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:75054:10)
+    at checkForXhr (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:135490:84)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:135513:28)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise.attempt.Promise.try (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:4315:29)
+    at whenStable (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143874:68)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143815:14)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1701:18)
+    at Promise._fulfill (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1645:18)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:5450:46)
+From Your Spec Code:
+    at AccountPage.fillCardInfo (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10153:14)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10199:21)
+    at Registry.runStepDefininition (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:8703:48)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Account Delete credit card for the account" time="0.000" classname="Delete credit card for the account">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.tm-trash`, but never found it. Queried from:
+
+              &gt; cy.contains(div, Credit Card)" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.tm-trash`, but never found it. Queried from:
+
+              > cy.contains(div, Credit Card)
+    at Object.deleteCreditCardBtn (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10135:72)
+    at AccountPage.deleteCreditCard (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10162:25)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10202:21)
+    at Registry.runStepDefininition (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:8703:48)
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Account Change the birthday (example #1)" time="4.540" classname="Change the birthday (example #1)">
+    </testcase>
+    <testcase name="Account Change the birthday (example #2)" time="4.618" classname="Change the birthday (example #2)">
+    </testcase>
+  </testsuite>
+</testsuites>

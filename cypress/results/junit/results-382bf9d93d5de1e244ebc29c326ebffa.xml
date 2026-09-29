@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.136" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-09-13T23:11:52" tests="0" file="cypress/e2e/features/autocomplete.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="autocomplete request" timestamp="2023-09-13T23:11:52" tests="1" time="5.104" failures="1">
+    <testcase name="autocomplete request Has bestsuggestions keyword" time="0.000" classname="Has bestsuggestions keyword">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/autocomplete.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/autocomplete.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/autocomplete.feature:9521:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

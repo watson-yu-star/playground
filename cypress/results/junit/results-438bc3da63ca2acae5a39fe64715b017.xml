@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.101" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-30T00:08:02" tests="0" file="cypress/e2e/features/wishlisttocart.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="user can add item to cart from wishlist page" timestamp="2024-01-30T00:08:02" tests="4" time="10.769" failures="0">
+    <testcase name="user can add item to cart from wishlist page empty wishlist showing correctly" time="1.563" classname="empty wishlist showing correctly">
+    </testcase>
+    <testcase name="user can add item to cart from wishlist page guest can add non-color/non-size product into cart in wishlist" time="2.540" classname="guest can add non-color/non-size product into cart in wishlist">
+    </testcase>
+    <testcase name="user can add item to cart from wishlist page guest can add color options with no-size product into cart in wishlist" time="3.180" classname="guest can add color options with no-size product into cart in wishlist">
+    </testcase>
+    <testcase name="user can add item to cart from wishlist page guest can add color/size options product into cart in wishlist" time="3.186" classname="guest can add color/size options product into cart in wishlist">
+    </testcase>
+  </testsuite>
+</testsuites>

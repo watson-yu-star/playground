@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.537" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-22T01:11:40" tests="0" file="cypress/e2e/features/autocomplete.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="autocomplete request" timestamp="2024-01-22T01:11:40" tests="1" time="3.479" failures="0">
+    <testcase name="autocomplete request Has bestsuggestions keyword" time="3.476" classname="Has bestsuggestions keyword">
+    </testcase>
+  </testsuite>
+</testsuites>

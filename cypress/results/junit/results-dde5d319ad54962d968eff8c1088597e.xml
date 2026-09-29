@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.156" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-24T09:01:14" tests="0" file="cypress/e2e/features/checkout.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="checkout" timestamp="2024-01-24T09:01:14" tests="1" time="14.974" failures="1">
+    <testcase name="checkout Checkout products from carts" time="0.000" classname="Checkout products from carts">
+      <failure message="Timed out retrying after 4000ms: `cy.contains()` failed because the page updated as a result of this command, but you tried to continue the command chain. The subject is no longer attached to the DOM, and Cypress cannot requery the page after commands such as `cy.contains()`.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You can typically solve this by breaking up a chain. For example, rewrite:
+
+&gt; `cy.get(&apos;button&apos;).click().should(&apos;have.class&apos;, &apos;active&apos;)`
+
+to
+
+&gt; `cy.get(&apos;button&apos;).as(&apos;btn&apos;).click()`
+&gt; `cy.get(&apos;@btn&apos;).should(&apos;have.class&apos;, &apos;active&apos;)`
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4000ms: `cy.contains()` failed because the page updated as a result of this command, but you tried to continue the command chain. The subject is no longer attached to the DOM, and Cypress cannot requery the page after commands such as `cy.contains()`.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You can typically solve this by breaking up a chain. For example, rewrite:
+
+> `cy.get('button').click().should('have.class', 'active')`
+
+to
+
+> `cy.get('button').as('btn').click()`
+> `cy.get('@btn').should('have.class', 'active')`
+
+https://on.cypress.io/element-has-detached-from-dom
+    at isAttached (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:145075:58)
+    at validateType (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:144945:9)
+    at Object.isType (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:144980:7)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:132245:22)
+    at Object.subjectFn (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143996:16)
+    at $Cy.verifyUpcomingAssertions (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143340:31)
+    at onRetry (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143987:15)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise.attempt.Promise.try (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:4315:29)
+    at whenStable (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143874:68)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:143815:14)
+    at tryCatcher (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1701:18)
+    at Promise._fulfill (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:1645:18)
+    at <unknown> (https://test.themarket.co.nz/__cypress/runner/cypress_runner.js:5450:46)
+From Your Spec Code:
+    at Context.eval (https://test.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/checkout.feature:10340:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

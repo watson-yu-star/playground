@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.157" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-11-23T23:18:30" tests="0" file="cypress/e2e/features/account.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Account" timestamp="2023-11-23T23:18:30" tests="3" time="25.113" failures="2">
+    <testcase name="Account Add credit card into account" time="0.000" classname="Add credit card into account">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;success&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'success' but never did.
+    at AccountPage.fillCardInfo (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10156:50)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10198:21)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Account Delete credit card for the account" time="0.000" classname="Delete credit card for the account">
+      <failure message="`cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.
+
+https://on.cypress.io/click" type="CypressError"><![CDATA[CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.
+
+https://on.cypress.io/click
+    at mouseAction (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:111268:68)
+    at Context.click (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:111432:14)
+    at wrapped (https://staging.themarket.co.nz/__cypress/runner/cypress_runner.js:138252:19)
+From Your Spec Code:
+    at AccountPage.deleteCreditCard (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10161:47)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:10201:21)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/account.feature:9568:48)]]></failure>
+    </testcase>
+    <testcase name="Account Change the birthday" time="5.216" classname="Change the birthday">
+    </testcase>
+  </testsuite>
+</testsuites>

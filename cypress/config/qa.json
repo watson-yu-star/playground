@@ -1,0 +1,7 @@
+{
+  
+   "baseUrl":"https://example.cypress.io",
+    "env":{
+        "usename":"Harden"
+    }
+}

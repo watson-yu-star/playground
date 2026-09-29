@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.895" tests="5" failures="1" skipped="4">
+  <testsuite name="Root Suite" timestamp="2023-09-27T05:06:20" tests="0" file="cypress/e2e/features/login.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2023-09-27T05:06:20" tests="5" time="6.874" failures="1">
+    <testcase name="Login Logout correctly" time="0.000" classname="Logout correctly">
+      <failure message="expected { Object (specWindow, chainerId) } to be null" type="AssertionError"><![CDATA[AssertionError: expected { Object (specWindow, chainerId) } to be null
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:10692:68)
+    at Registry.runStepDefininition (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:8703:48)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/login.feature:9568:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

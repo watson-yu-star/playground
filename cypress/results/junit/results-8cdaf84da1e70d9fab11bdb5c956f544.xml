@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.273" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-24T21:22:16" tests="0" file="cypress/e2e/features/account.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Account" timestamp="2024-01-24T21:22:16" tests="4" time="27.224" failures="0">
+    <testcase name="Account Add credit card into account" time="13.834" classname="Add credit card into account">
+    </testcase>
+    <testcase name="Account Delete credit card for the account" time="4.148" classname="Delete credit card for the account">
+    </testcase>
+    <testcase name="Account Change the birthday (example #1)" time="4.611" classname="Change the birthday (example #1)">
+    </testcase>
+    <testcase name="Account Change the birthday (example #2)" time="4.487" classname="Change the birthday (example #2)">
+    </testcase>
+  </testsuite>
+</testsuites>

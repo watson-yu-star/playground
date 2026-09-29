@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.746" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2023-09-13T23:13:15" tests="0" file="cypress/e2e/features/pdp.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Product detail page" timestamp="2023-09-13T23:13:15" tests="4" time="20.712" failures="4">
+    <testcase name="Product detail page Add product Quantity" time="0.000" classname="Add product Quantity">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:9521:27)]]></failure>
+    </testcase>
+    <testcase name="Product detail page Reduce product Quantity" time="0.000" classname="Reduce product Quantity">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:9521:27)]]></failure>
+    </testcase>
+    <testcase name="Product detail page Set the product Quantity" time="0.000" classname="Set the product Quantity">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:9521:27)]]></failure>
+    </testcase>
+    <testcase name="Product detail page Change shipping location" time="0.000" classname="Change shipping location">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.wishlist-buttons-left`, but never found it.
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:10542:12)
+    at Registry.runHook (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:8712:31)
+    at Context.eval (https://staging.themarket.co.nz/__cypress/tests?p=cypress/e2e/features/pdp.feature:9521:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

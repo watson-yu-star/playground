@@ -1,0 +1,74 @@
+[
+    {
+        "SearchTermId": 4406,
+        "SearchTermTypeCode": "Trend",
+        "SearchTerm": "Pencil Case",
+        "SearchTermIn": null,
+        "Priority": 66,
+        "StatusId": 2,
+        "LastCreated": "2020-01-20T10:11:15.790",
+        "LastModified": "2020-01-20T10:11:24.795",
+        "ElasticUpdateLast": "2023-01-30T22:41:02.008",
+        "ElasticScore": null
+    },
+    {
+        "SearchTermId": 4405,
+        "SearchTermTypeCode": "Trend",
+        "SearchTerm": "Karen Walker",
+        "SearchTermIn": null,
+        "Priority": 67,
+        "StatusId": 2,
+        "LastCreated": "2020-01-20T10:10:55.740",
+        "LastModified": "2020-01-20T10:11:24.843",
+        "ElasticUpdateLast": "2023-01-30T22:41:02.008",
+        "ElasticScore": null
+    },
+    {
+        "SearchTermId": 4403,
+        "SearchTermTypeCode": "Trend",
+        "SearchTerm": "Scooter",
+        "SearchTermIn": null,
+        "Priority": 68,
+        "StatusId": 2,
+        "LastCreated": "2020-01-20T10:09:44.297",
+        "LastModified": "2020-01-20T10:11:23.002",
+        "ElasticUpdateLast": "2023-01-30T22:41:02.008",
+        "ElasticScore": null
+    },
+    {
+        "SearchTermId": 4404,
+        "SearchTermTypeCode": "Trend",
+        "SearchTerm": "Lego",
+        "SearchTermIn": null,
+        "Priority": 69,
+        "StatusId": 2,
+        "LastCreated": "2020-01-20T10:10:38.179",
+        "LastModified": "2020-01-20T10:11:21.262",
+        "ElasticUpdateLast": "2023-01-30T22:41:02.008",
+        "ElasticScore": null
+    },
+    {
+        "SearchTermId": 4393,
+        "SearchTermTypeCode": "Trend",
+        "SearchTerm": "iPhone",
+        "SearchTermIn": null,
+        "Priority": 70,
+        "StatusId": 2,
+        "LastCreated": "2018-07-24T13:56:39.079",
+        "LastModified": "2020-01-20T10:11:19.584",
+        "ElasticUpdateLast": "2023-01-30T22:41:02.008",
+        "ElasticScore": null
+    },
+    {
+        "SearchTermId": 4402,
+        "SearchTermTypeCode": "Trend",
+        "SearchTerm": "School Shoe",
+        "SearchTermIn": null,
+        "Priority": 71,
+        "StatusId": 2,
+        "LastCreated": "2020-01-20T10:09:27.162",
+        "LastModified": "2020-01-20T10:11:18.104",
+        "ElasticUpdateLast": "2023-01-30T22:41:02.008",
+        "ElasticScore": null
+    }
+]
