@@ -14,8 +14,8 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
 
   env:{
-    username:"TmAutoTest1@gmail.com",
-    password:"Welcome2019",
+    username:"*****",
+    password:"*****",
     omitFiltered: true,
     filterSpecs: true
   },
